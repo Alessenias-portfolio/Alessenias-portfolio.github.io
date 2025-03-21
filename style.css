@@ -52,11 +52,10 @@ nav a {
 }
 
 .carousel-item {
-    width: 100%;
     display: none;
 }
 
-.carousel-item.active {
+.carousel-item:first-child {
     display: block;
 }
 
