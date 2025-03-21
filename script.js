@@ -29,4 +29,3 @@ function moveCarousel(direction, containerClass, carouselNumber) {
 
     items[currentIndex].style.display = "block";
 }
-
