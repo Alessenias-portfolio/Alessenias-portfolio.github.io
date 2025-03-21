@@ -52,11 +52,8 @@ nav a {
 }
 
 .carousel-item {
-    display: none;
-}
-
-.carousel-item:first-child {
-    display: block;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 button {
@@ -70,22 +67,30 @@ button {
     transform: translateY(-50%);
 }
 
-#prevBtn {
+#prevBtn1 {
     left: 10px;
 }
 
-#nextBtn {
+#nextBtn1 {
     right: 10px;
 }
 
+#prevBtn2 {
+    left: 10px;
+}
+
+#nextBtn2 {
+    right: 10px;
+}
 
 section {
     padding: 20px;
 }
 
 footer {
-    margin-top:500px;
+    margin-top: 500px;
     padding: 10px;
     background-color: #333;
     color: white;
 }
+
